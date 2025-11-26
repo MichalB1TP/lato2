@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantyczny Układ 2</title>
+    <style>
+        body {
+            margin: 0 auto; 
+            padding: 0;
+            width: 600px;
+            height: 500px; 
+            box-sizing: border-box; 
+            display: flex;
+            flex-direction: row;
+        }
+        
+        aside {
+            width: 30%;
+            height: 100%;
+            border: 1px solid black;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        main {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            border-left: none;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, article, footer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            box-sizing: border-box;
+        }
+
+        header {
+            height: 15%; 
+            border-bottom: 1px solid black;
+        }
+
+        nav {
+            height: 10%; 
+            border-bottom: 1px solid black;
+        }
+
+        article {
+            height: 60%; 
+            border-bottom: 1px solid black;
+        }
+
+        footer {
+            height: 15%;
+        }
+
+        h1, h3, h4, p {
+            margin: 0;
+            font-weight: normal; 
+            font-size: 16px; 
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <aside>
+        Blok boczny
+    </aside>
+
+    <main>
+        <header>
+            Blok nagłówkowy
+        </header>
+
+        <nav>
+            Blok nawigacyjny
+        </nav>
+
+        <article>
+            Blok główny
+        </article>
+
+        <footer>
+            Blok stopki
+        </footer>
+    </main>
+
+</body>
+</html>
